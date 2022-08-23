@@ -9,8 +9,18 @@
 }
 
 #headerBox {
-    background-color: slategrey;
+    background-color: darkred;
+    color: white;
     padding: 1rem;
+    text-align: center;
+}
+
+#headerTitle {
+    font-size: 3rem;
+}
+
+#headerSubTitle {
+    font-size: 2rem;
 }
 
 #playBox {

@@ -11,7 +11,7 @@ function buildAnnouncementsBox() {
     subAnnouncement.id = 'subAnnouncement';
     //add inner html
     mainAnnouncement.innerHTML = 'Are You Ready?';
-    subAnnouncement.innerHTML = 'first to five wins!';
+    subAnnouncement.innerHTML = 'choose your weapon!';
     //append items
     announcementsBox.append(mainAnnouncement,subAnnouncement);
     location.append(announcementsBox);
