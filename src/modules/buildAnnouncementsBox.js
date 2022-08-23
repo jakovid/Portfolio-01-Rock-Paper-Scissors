@@ -10,8 +10,8 @@ function buildAnnouncementsBox() {
     mainAnnouncement.id = 'mainAnnouncement';
     subAnnouncement.id = 'subAnnouncement';
     //add inner html
-    mainAnnouncement.innerHTML = 'Main Placeholder';
-    subAnnouncement.innerHTML = 'Sub Placeholder';
+    mainAnnouncement.innerHTML = 'Are You Ready?';
+    subAnnouncement.innerHTML = 'first to five wins!';
     //append items
     announcementsBox.append(mainAnnouncement,subAnnouncement);
     location.append(announcementsBox);

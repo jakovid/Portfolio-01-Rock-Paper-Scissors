@@ -4,6 +4,8 @@ import { buildAnnouncementsBox } from "./modules/buildAnnouncementsBox";
 
 (function(){
     var rpsMain = {
+        playerScore: 0,
+        computerScore: 0,
         init: function() {
             buildAnnouncementsBox();
             buildGameBox();

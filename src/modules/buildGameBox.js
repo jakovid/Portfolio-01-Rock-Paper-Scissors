@@ -18,10 +18,10 @@ function buildGameBox() {
     computerGameIcon.id = 'computerGameIcon';
     computerGameScore.id = 'computerGameScore';
     //add inner html
-    playerGameIcon.innerHTML = 'placeholder 1';
-    playerGameScore.innerHTML = 'placeholder 2';
-    computerGameIcon.innerHTML = 'placeholder 3';
-    computerGameScore.innerHTML = 'placeholder 4';
+    playerGameIcon.innerHTML = '&#10067';
+    playerGameScore.innerHTML = 'Player: 0';
+    computerGameIcon.innerHTML = '&#10067';
+    computerGameScore.innerHTML = 'Computer: 0';
     //append items
     playerGameBox.append(playerGameIcon,playerGameScore);
     computerGameBox.append(computerGameIcon,computerGameScore);

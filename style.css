@@ -49,6 +49,10 @@
     margin: 0.5rem;
 }
 
+#playerGameIcon, #computerGameIcon {
+    font-size: 6rem;
+}
+
 #playerChoices {
     display: flex;
     flex-direction: row;
