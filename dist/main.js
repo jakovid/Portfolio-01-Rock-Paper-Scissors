@@ -1,0 +1,1 @@
+(()=>{"use strict";!function(){let e=document.getElementById("playBox"),t=document.createElement("div"),n=document.createElement("button"),c=document.createElement("button"),d=document.createElement("button");t.id="playerChoices",n.id="rockBtn",c.id="paperBtn",d.id="scissorsBtn",n.innerHTML="&#9994",c.innerHTML="&#9995",d.innerHTML="&#9996",t.append(n,c,d),e.append(t)}()})();

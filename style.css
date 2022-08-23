@@ -13,9 +13,50 @@
     padding: 1rem;
 }
 
-#gameBox {
+#playBox {
     display: grid;
     grid-template-rows: 1fr 2fr 2fr;
+    justify-content: center;
+    align-items: center;
+}
+
+#announcementsBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#mainAnnouncement {
+    font-size: 3rem;
+}
+
+#subAnnouncement {
+    font-size: 1.5rem;
+}
+
+#gameBox {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: bisque;
+    gap: 1rem;
+}
+
+#playerGameBox, #computerGameBox {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: aqua;
+    margin: 0.5rem;
+}
+
+#playerChoices {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#playerChoices>button {
+    font-size: 3rem;
 }
 
 #footerBox {
