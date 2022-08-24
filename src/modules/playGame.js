@@ -1,8 +1,13 @@
 import { playRound } from "./playRound";
 import { computerPick } from "./computerPick";
+import { updateGameBoxDom } from "./updateGameBoxDom";
+import { scores } from "./scores";
 
 function playGame(playerInput) {
-    playRound(playerInput,computerPick());
+    let computerInput = computerPick()
+    playRound(playerInput, computerInput);
+    updateGameBoxDom(playerInput,scores.player,computerInput,scores.computer);
+
 }
 
 export { playGame };
