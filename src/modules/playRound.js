@@ -2,13 +2,20 @@ import { scores } from "./scores";
 import { rules } from "./gameRules";
 
 function playRound(playerInput,computerInput) {
+    //get elements
+    let mainAnnouncement = document.getElementById('mainAnnouncement');
+    let subAnnouncement = document.getElementById('subAnnouncement');
+
     if (playerInput == computerInput) {
-        console.log('its a tie');
-    } else if (computerInput == rules.playerInput) {
-        console.log('you win!');
+        mainAnnouncement.innerHTML = 'Its A Tie';
+        subAnnouncement.innerHTML = `you both threw ${playerInput}`;
+    } else if (computerInput == rules[playerInput]) {
+        mainAnnouncement.innerHTML = 'You Win!';
+        subAnnouncement.innerHTML = `${playerInput} beats ${computerInput}`;
         scores.player += 1;
     } else {
-        console.log('you lose!');
+        mainAnnouncement.innerHTML = 'You Lose!';
+        subAnnouncement.innerHTML = `${computerInput} beats ${playerInput}`;
         scores.computer += 1;
     }
 }
