@@ -10,6 +10,9 @@ function gameOver(outcome) {
     let outcomeAnnouncement = document.createElement('div');
     let playAgainBtn = document.createElement('button');
     //add ids
+    gameOverAnnouncement.id = 'gameOverAnnouncement';
+    outcomeAnnouncement.id = 'outcomeAnnouncement';
+    playAgainBtn.id = 'playAgainBtn';
     //add innerHTML
     gameOverAnnouncement.innerHTML = "GAME OVER!";
     outcomeAnnouncement.innerHTML = `YOU ${upperOut}`;
