@@ -7,7 +7,7 @@ function playRound(playerInput,computerInput) {
     let subAnnouncement = document.getElementById('subAnnouncement');
 
     if (playerInput == computerInput) {
-        mainAnnouncement.innerHTML = 'Its A Tie';
+        mainAnnouncement.innerHTML = 'Its A Tie!';
         subAnnouncement.innerHTML = `you both threw ${playerInput}`;
     } else if (computerInput == rules[playerInput]) {
         mainAnnouncement.innerHTML = 'You Win!';

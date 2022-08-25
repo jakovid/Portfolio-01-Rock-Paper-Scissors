@@ -47,7 +47,7 @@
 #gameBox {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: bisque;
+    background-color: black;
     gap: 1rem;
 }
 
@@ -57,7 +57,7 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: aqua;
+    background-color: lightgray;
     margin: 0.5rem;
     width: 20vw;
     height: 20vw;
