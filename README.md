@@ -2,7 +2,7 @@
 
 This is a browser game based on Rock, Paper, Scissors. 
 
-This project consists of html, css, and JS.
+This project consists of HTML, CSS, and vanilla JS.
 
 Minimal HTML was implemented in order to focus on DOM manipulation with JS.
 
